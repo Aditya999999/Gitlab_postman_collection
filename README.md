@@ -1,10 +1,15 @@
 # Gitlab_postman_collection
  This repository contains gitlab postman collection exported from POSTMAN after forking the collection from marketplace.
  Goal is to integrate this collection in Azure DevOps pipeline.
+
 Step 1: Export collection from postman in json format.
-Step 2: Push the collection in Github repository under any created folder.
+
+Step 2: Push the collection in Github repository under any created folder in your repo.
+
 Step 3: Create a project in Azure DevOps.
+
 Step 4: Create a CI pipeline by taking suitable agent.
+
 Step 5: Now add tasks that are following for running postman_collection:
 	
 	a. Install Newman - Newman is a command-line collection runner for Postman.
